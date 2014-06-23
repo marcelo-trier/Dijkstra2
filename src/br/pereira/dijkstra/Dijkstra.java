@@ -57,6 +57,7 @@ public class Dijkstra extends Grafo {
 				relax( u, v, w );
 			}
 		}
+		Collections.sort( vertices );
 	}
 	
 

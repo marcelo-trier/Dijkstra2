@@ -20,21 +20,4 @@ public class Test1 {
 		dj.execute( 0 );
 		System.out.println( dj );
 	}
-	
-
-/*	
-	public static void main__OOLLDD(String[] args) throws Exception {
-		System.out.println( "RUNNING: " + Test1.class.getName() + "\n\n" );
-
-		Grafo g = new Grafo();
-
-		File f = GerenteArquivos.getInstance().getOpenFile();
-		g.loadFromFile( f );
-		System.out.println( g );
-
-		Dijkstra dj = new Dijkstra( g );
-		dj.execute( 0 );
-		System.out.println( dj );
-	} */
-
 }
