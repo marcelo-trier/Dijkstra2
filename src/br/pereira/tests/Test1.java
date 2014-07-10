@@ -17,7 +17,7 @@ public class Test1 {
 		System.out.println( g );
 
 		Dijkstra dj = new Dijkstra( g );
-		dj.execute( 0 );
+		dj.execute( 1 );
 		System.out.println( dj );
 	}
 }
