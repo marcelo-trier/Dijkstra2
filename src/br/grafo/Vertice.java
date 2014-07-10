@@ -32,7 +32,13 @@ public class Vertice implements Comparable<Vertice>{
 		adjacentes.add( umaA );
 	}
 	
+	
 	public String toString() {
+		String msg = label;
+		return msg;
+	}
+
+	public String toString___OOLLDD() {
 		String msg = label + "(";
 		for( Aresta a : adjacentes ) {
 			msg += a.v[1].label + ",";
